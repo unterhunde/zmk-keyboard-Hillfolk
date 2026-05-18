@@ -1,5 +1,5 @@
 config SHIELD_HILLFOLK_LEFT
-    def_bool $(shields_list_contains, Hillfolk_left)
+    def_bool $(shields_list_contains,Hillfolk_left)
 
 config SHIELD_HILLFOLK_RIGHT
-    def_bool $(shields_list_contains, Hillfolk_right)
+    def_bool $(shields_list_contains,Hillfolk_right)
