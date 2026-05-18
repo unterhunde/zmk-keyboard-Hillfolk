@@ -1,0 +1,17 @@
+if SHIELD_HILLFOLK_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Hillfolk"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_HILLFOLK_LEFT || SHIELD_HILLFOLK_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
+
