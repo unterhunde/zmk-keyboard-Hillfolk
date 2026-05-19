@@ -1,0 +1,11 @@
+file_format: "1"
+id: Hillfolk
+name: Hillfolk
+type: shield
+url: https://github.com/unterhunde/zmk-keyboard-Hillfolk/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - Hillfolk_left
+  - HIllfolk_right

@@ -18,6 +18,7 @@
 #     artifact-name: corne_left_with_studio
 #
 include:
-  board: nice_nano_v2
-  shield: Hillfolk_left
-  shield: Hillfolk_right
+  - board: nice_nano_v2
+    shield: Hillfolk_left
+  - board: nice_nano_v2
+    shield: Hillfolk_right
