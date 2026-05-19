@@ -1,5 +1,5 @@
 // Right Overlay
-#include "Hillfolk.dsti"
+#include "Hillfolk.dtsi"
 
 &default_transform {
     col-offset = <6>;

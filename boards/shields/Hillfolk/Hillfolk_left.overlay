@@ -1,5 +1,5 @@
 // Left Overlay
-#include "Hillfolk.dsti"
+#include "Hillfolk.dtsi"
 
 &default_kscan {
     col-gpios = <&pro_micro 19 <GPIO_ACTIVE_HIGH>, // Col 0
