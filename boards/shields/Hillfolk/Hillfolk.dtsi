@@ -17,7 +17,7 @@
         diode-direction = "col2row";
         wakeup-source;
 
-        row-gpios = <&pro_micro 5   >, // Row 0
+        row-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 0
                     <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 1
                     <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 2
                     <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 3
