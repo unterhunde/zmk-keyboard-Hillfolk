@@ -2,5 +2,5 @@ Follow this guide:
 https://zmk.dev/docs/development/hardware-integration/new-shield
 
 git add -A
-git commt -m "Turn it off and back on again."
+git commit -m "Turn it off and back on again."
 git push

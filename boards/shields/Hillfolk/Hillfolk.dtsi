@@ -1,15 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "Hillfolk-layouts.dsti"
 
 / {
     chosen {
         zmk,physical-layout = &default_phys_layout;
-    };
-
-    default_phys_layout: default_phys_layout {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        kscan = <&default_kscan>;
-        transform = <&default_transform>;
     };
 
     default_kscan: default_kscan {
