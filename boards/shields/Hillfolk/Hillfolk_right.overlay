@@ -6,10 +6,10 @@
 };
 
 &default_kscan {
-    col-gpios = <&pro_micro 19 GPIO_ACTIVE_HIGH>, // Col 6
-                <&pro_micro 18 GPIO_ACTIVE_HIGH>, // Col 7
-                <&pro_micro 15 GPIO_ACTIVE_HIGH>, // Col 8
-                <&pro_micro 14 GPIO_ACTIVE_HIGH>, // Col 9
-                <&pro_micro 16 GPIO_ACTIVE_HIGH>, // Col 10
-                <&pro_micro 10 GPIO_ACTIVE_HIGH>; // Col 11
+    col-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>, // Col 0 black wire
+                <&pro_micro 16 GPIO_ACTIVE_HIGH>, // Col 1 white wire
+                <&pro_micro 14 GPIO_ACTIVE_HIGH>, // Col 2 green wire
+                <&pro_micro 15 GPIO_ACTIVE_HIGH>, // Col 3 blue wire
+                <&pro_micro 18 GPIO_ACTIVE_HIGH>, // Col 4 yellow wire
+                <&pro_micro 19 GPIO_ACTIVE_HIGH>; // Col 5 red wire
 };
