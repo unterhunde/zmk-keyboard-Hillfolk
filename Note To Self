@@ -1,6 +1,3 @@
-Follow this guide:
-https://zmk.dev/docs/development/hardware-integration/new-shield
-
 git add -A
 git commit -m "Auto-save to GitHub."
 git push
