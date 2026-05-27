@@ -20,7 +20,7 @@
 
     default_transform: default_transform {
         compatible = "zmk,matrix-transform";
-        rows = <5>;
+        rows = <12>;
         columns = <6>;
 
         map = <
