@@ -25,10 +25,10 @@
 
         layer_1 {
             bindings = <                          
-&bt BT_CLR  &trans  &trans  &trans  &trans  &trans          &kp BACKSLASH        &kp LEFT_BRACE   &kp RIGHT_BRACE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans
-&trans      &trans  &trans  &trans  &trans  &trans          &kp TILDE      &kp HOME         &kp UP            &kp END            &trans               &trans
-&trans      &trans  &trans  &trans  &trans  &trans          &trans          &kp LEFT         &kp DOWN          &kp RIGHT          &trans               &trans
-&trans      &trans  &trans  &trans  &trans  &trans          &trans          &kp PG_UP        &trans            &kp PAGE_DOWN      &trans               &trans
+&bt BT_CLR  &trans  &trans  &trans  &trans  &trans          &kp BACKSLASH   &kp LEFT_BRACE   &kp RIGHT_BRACE    &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &trans
+&trans      &trans  &trans  &trans  &trans  &trans          &kp TILDE       &kp HOME        &kp UP              &kp END             &trans               &trans
+&trans      &trans  &trans  &trans  &trans  &trans          &trans          &kp LEFT         &trans             &kp RIGHT           &trans               &trans
+&trans      &trans  &trans  &trans  &trans  &trans          &trans          &kp PG_UP        &kp DOWN           &kp PAGE_DOWN       &trans               &trans
                             &trans  &trans  &kp LGUI        &trans          &trans           &trans
             >;
         };
